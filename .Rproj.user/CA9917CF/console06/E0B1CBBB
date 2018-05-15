@@ -1,0 +1,101 @@
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m hugo -v
+INFO 2018/05/15 00:07:14 Using config file: /home/dan/Projects/blogdownSource/config.toml
+[?25lBuilding sites … INFO 2018/05/15 00:07:14 syncing static files to /home/dan/Projects/blogdownSource/public/
+ERROR 2018/05/15 00:07:14 failed to parse page metadata for "home/projects.md": Near line 38 (last key parsed 'filter'): expected a top-level item to end with a newline, comment, or EOF, but got 'j' instead for home/projects.md
+[?25h[KTotal in 59 ms
+Error: Error building site: failed to parse page metadata for "home/projects.md": Near line 38 (last key parsed 'filter'): expected a top-level item to end with a newline, comment, or EOF, but got 'j' instead
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m hugo -v
+INFO 2018/05/15 00:08:04 Using config file: /home/dan/Projects/blogdownSource/config.toml
+[?25lBuilding sites … INFO 2018/05/15 00:08:04 syncing static files to /home/dan/Projects/blogdownSource/public/
+INFO 2018/05/15 00:08:04 found taxonomies: map[string]string{"publication_type":"publication_types", "tag":"tags", "category":"categories"}
+ERROR 2018/05/15 00:08:04 Please check that the `projects` parameter in the front matter of content in `content/talk/` refers to an existing filename (without .md extension) of a published project.
+INFO 2018/05/15 00:08:04 Alias "/tags/academic/page/1/index.html" translated to "tags/academic/page/1/index.html"
+ERROR 2018/05/15 00:08:04 Please check that the `projects` parameter in the front matter of content in `content/publication/` refers to an existing filename (without .md extension) of a published project.
+INFO 2018/05/15 00:08:04 Alias "/post/page/1/index.html" translated to "post/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/publication_types/1/page/1/index.html" translated to "publication_types/1/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/categories/page/1/index.html" translated to "categories/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/tags/hobby/page/1/index.html" translated to "tags/hobby/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/publication_types/2/page/1/index.html" translated to "publication_types/2/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/tags/plot/page/1/index.html" translated to "tags/plot/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/publication_types/page/1/index.html" translated to "publication_types/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/categories/r/page/1/index.html" translated to "categories/r/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/tags/r-markdown/page/1/index.html" translated to "tags/r-markdown/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/tags/regression/page/1/index.html" translated to "tags/regression/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/tags/page/1/index.html" translated to "tags/page/1/index.html"
+INFO 2018/05/15 00:08:04 Alias "/tags/work/page/1/index.html" translated to "tags/work/page/1/index.html"
+[?25h[K
+                   | EN  
++------------------+----+
+  Pages            | 43  
+  Paginator pages  |  0  
+  Non-page files   |  0  
+  Static files     | 12  
+  Processed images |  0  
+  Aliases          | 13  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Total in 100 ms
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m ls -a
+[0m[01;34m.[0m   [01;34marchetypes[0m            config.toml  [01;34mdata[0m        .httr-oauth  [01;34mlayouts[0m  .Rhistory    [01;34mstatic[0m
+[01;34m..[0m  blogdownSource.Rproj  [01;34mcontent[0m      .gitignore  index.Rmd    [01;34mpublic[0m   [01;34m.Rproj.user[0m  [01;34mthemes[0m
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m git -h
+unknown option: -h
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m git -h[K-help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialise an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m git init blogdownSource.Rproj
+fatal: cannot mkdir blogdownSource.Rproj: File exists
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m git init blogdownSource.Rproj[K[K[K[K[K[K
+Initialised empty Git repository in /home/dan/Projects/blogdownSource/blogdownSource/.git/
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m[00m$[0m git init blogdownSource[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Initialised empty Git repository in /home/dan/Projects/blogdownSource/.git/
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m(master)[00m$[0m git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+]0;/home/dan/Projects/blogdownSource[01;32mdan@dan-UX410UAK[00m [01;34m[~/Projects/blogdownSource] [38;5;95m(master)[00m$[0m git add .

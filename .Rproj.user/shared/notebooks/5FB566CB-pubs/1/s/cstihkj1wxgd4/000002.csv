@@ -1,0 +1,33 @@
+"0","library(""dplyr"")
+"
+"2","
+Attaching package: ‘dplyr’
+
+"
+"2","The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+"
+"2","The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+"
+"0","library(""googlesheets"")"
+"0","pubs <- gs_url(""https://docs.google.com/spreadsheets/d/1o1ws9sP42QBqFvFP0wQcJ5Rk6l2ILaJrmhOdioMlVpY/edit#gid=0"", verbose = FALSE) %>% "
+"0","  gs_read(verbose = FALSE)"
+"2","Parsed with column specification:
+cols(
+  status = col_character(),
+  Authors = col_character(),
+  Year = col_character(),
+  Title = col_character(),
+  Publication = col_character(),
+  Volume = col_integer(),
+  Number = col_integer(),
+  Pages = col_character(),
+  LinkType = col_character(),
+  Link = col_character()
+)
+"

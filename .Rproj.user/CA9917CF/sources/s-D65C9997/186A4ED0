@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526160951828.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "186A4ED0",
+    "lastKnownWriteTime" : 1526381865,
+    "last_content_update" : 1526381865279,
+    "path" : "~/Projects/blogdownSource/config.toml",
+    "project_path" : "config.toml",
+    "properties" : {
+        "cursorPosition" : "240,19",
+        "scrollLine" : "222"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "toml"
+}

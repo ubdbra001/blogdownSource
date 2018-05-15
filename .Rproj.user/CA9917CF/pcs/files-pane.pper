@@ -1,0 +1,9 @@
+{
+    "path" : "~/Projects/blogdownSource/content/home",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
